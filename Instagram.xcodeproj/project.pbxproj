@@ -12,6 +12,11 @@
 		B2721311235A66A200C4E8C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B272130F235A66A200C4E8C5 /* Main.storyboard */; };
 		B2721313235A66A600C4E8C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2721312235A66A600C4E8C5 /* Assets.xcassets */; };
 		B2721316235A66A600C4E8C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2721314235A66A600C4E8C5 /* LaunchScreen.storyboard */; };
+		B2F4BD792366CC3B00303B24 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F4BD782366CC3B00303B24 /* LoginViewController.swift */; };
+		B2F4BD7B2366CC7D00303B24 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F4BD7A2366CC7D00303B24 /* HomeViewController.swift */; };
+		B2F4BD7D2366CDB300303B24 /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F4BD7C2366CDB300303B24 /* ImageSelectViewController.swift */; };
+		B2F4BD7F2366CE0300303B24 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F4BD7E2366CE0300303B24 /* PostViewController.swift */; };
+		B2F4BD812366CE4800303B24 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F4BD802366CE4800303B24 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		B2721312235A66A600C4E8C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2721315235A66A600C4E8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2721317235A66A600C4E8C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F4BD782366CC3B00303B24 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B2F4BD7A2366CC7D00303B24 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B2F4BD7C2366CDB300303B24 /* ImageSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
+		B2F4BD7E2366CE0300303B24 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		B2F4BD802366CE4800303B24 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 			children = (
 				B272130B235A66A200C4E8C5 /* AppDelegate.swift */,
 				B272130D235A66A200C4E8C5 /* ViewController.swift */,
+				B2F4BD7A2366CC7D00303B24 /* HomeViewController.swift */,
+				B2F4BD7C2366CDB300303B24 /* ImageSelectViewController.swift */,
+				B2F4BD782366CC3B00303B24 /* LoginViewController.swift */,
+				B2F4BD802366CE4800303B24 /* SettingViewController.swift */,
+				B2F4BD7E2366CE0300303B24 /* PostViewController.swift */,
 				B272130F235A66A200C4E8C5 /* Main.storyboard */,
 				B2721312235A66A600C4E8C5 /* Assets.xcassets */,
 				B2721314235A66A600C4E8C5 /* LaunchScreen.storyboard */,
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F4BD7F2366CE0300303B24 /* PostViewController.swift in Sources */,
+				B2F4BD792366CC3B00303B24 /* LoginViewController.swift in Sources */,
 				B272130E235A66A200C4E8C5 /* ViewController.swift in Sources */,
 				B272130C235A66A200C4E8C5 /* AppDelegate.swift in Sources */,
+				B2F4BD7D2366CDB300303B24 /* ImageSelectViewController.swift in Sources */,
+				B2F4BD812366CE4800303B24 /* SettingViewController.swift in Sources */,
+				B2F4BD7B2366CC7D00303B24 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +311,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.Ryuuki.hamada.Instagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.Ryuuki.hamada.Instagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
